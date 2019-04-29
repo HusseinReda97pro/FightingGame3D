@@ -2,26 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Assets",
+    "\\Assets\\Models\\Environment",
     "\\Assets\\Scrpits",
-    "\\Assets\\Scrpits\\Player Scripts",
+    "\\Assets\\Scrpits\\Helper_Scripts",
+    "\\Assets\\Scrpits\\Uni Scripts",
     "\\Assets\\Standard Assets",
-    "\\Assets\\Standard Assets\\Environment",
-    "\\Assets\\Standard Assets\\Environment\\Water",
-    "\\Assets\\Standard Assets\\Environment\\Water\\Water",
-    "\\Assets\\Standard Assets\\Environment\\Water\\Water\\Scripts",
-    "\\Library",
-    "\\Library\\PackageCache",
-    "\\Library\\PackageCache\\com.unity.package-manager-ui@2.0.3",
-    "\\Library\\PackageCache\\com.unity.package-manager-ui@2.0.3\\Editor",
-    "\\Library\\PackageCache\\com.unity.package-manager-ui@2.0.3\\Editor\\Sources",
-    "\\Library\\PackageCache\\com.unity.package-manager-ui@2.0.3\\Editor\\Sources\\External",
-    "\\Library\\PackageCache\\com.unity.textmeshpro@1.3.0",
-    "\\Library\\PackageCache\\com.unity.textmeshpro@1.3.0\\Editor Resources",
-    "\\Library\\PackageCache\\com.unity.textmeshpro@1.3.0\\Editor Resources\\Gizmos",
-    "\\Library\\PackageCache\\com.unity.textmeshpro@1.3.0\\Tests",
-    "\\Library\\PackageCache\\com.unity.textmeshpro@1.3.0\\Tests\\Editor",
-    "\\Library\\PackageCache\\com.unity.textmeshpro@1.3.0\\Tests\\Runtime"
+    "\\Assets\\Standard Assets\\Environment"
   ],
-  "SelectedNode": "\\Assets\\Scrpits\\Player Scripts\\PlayerMovement.cs",
+  "SelectedNode": "\\Assets\\Scrpits\\Uni Scripts\\CharacterAnimationDelegate.cs",
   "PreviewInSolutionExplorer": false
 }

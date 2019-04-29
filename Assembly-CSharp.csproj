@@ -69,10 +69,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scrpits\Enemy Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scrpits\Helper_Scripts\DeactivateGameObject.cs" />
     <Compile Include="Assets\Scrpits\Helper_Scripts\Tagmanager.cs" />
-    <Compile Include="Assets\Scrpits\Player Scripts\CharacterAnimation.cs" />
     <Compile Include="Assets\Scrpits\Player Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scrpits\Player Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scrpits\Uni Scripts\CharacterAnimation.cs" />
+    <Compile Include="Assets\Scrpits\Uni Scripts\CharacterAnimationDelegate.cs" />
+    <Compile Include="Assets\Scrpits\Uni Scripts\HealthScript.cs" />
+    <Compile Include="Assets\Scrpits\Uni Scripts\Universal.cs" />
     <None Include="Assets\Shaders\MatCapSimple.shader" />
     <None Include="Assets\Shaders\AdditiveTint.shader" />
     <None Include="Assets\Shaders\UntilIlum.shader" />
