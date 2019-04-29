@@ -25,6 +25,8 @@ public class HealthScript : MonoBehaviour
 
         health -= damage;
 
+
+
         if(health <= 0f) {
             animationScript.DEATH();
             characterDied = true;
