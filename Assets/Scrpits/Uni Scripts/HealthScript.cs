@@ -12,9 +12,14 @@ public class HealthScript : MonoBehaviour
     private bool characterDied;
     public bool is_Player;
 
+    private HealthUI health_UI;
+
     void Awake()
     {
         animationScript = GetComponentInChildren<CharacterAnimation>();
+        if(is_Player){
+            health_UI = GetComponent<HealthUI>();
+         }
     }
 
     
@@ -24,7 +29,10 @@ public class HealthScript : MonoBehaviour
             return;
 
         health -= damage;
-
+        //display health UI
+        if(is_Player){
+            health_UI.DisplayHealth(health);
+}
 
 
         if(health <= 0f) {
@@ -32,7 +40,8 @@ public class HealthScript : MonoBehaviour
             characterDied = true;
 
             if(is_Player) {
-
+                GameObject.FindWithTag(Tags.ENEMY_TAG)
+                    .GetComponent<EnemyMovement>().enabled = false;
             }
             return;
         }

@@ -15,7 +15,7 @@ public class ShakeCamera : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
      startPosition = transform.localPosition ;
@@ -33,7 +33,7 @@ public class ShakeCamera : MonoBehaviour
 	void Shake(){
 	  if(should_Shake){
 
-	     if(duration>0f){
+	     if(duration > 0f){
 		    transform.localPosition = startPosition + Random.insideUnitSphere * power ;
 			duration -=Time.deltaTime * slowDownAmount ;
 		 
