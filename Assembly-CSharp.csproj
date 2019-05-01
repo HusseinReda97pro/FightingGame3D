@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scrpits\Uni Scripts\CharacterAnimationDelegate.cs" />
      <Compile Include="Assets\Scrpits\Uni Scripts\HealthScript.cs" />
      <Compile Include="Assets\Scrpits\Uni Scripts\Universal.cs" />
+     <Compile Include="Assets\Third_Person_Perspective.cs" />
      <None Include="Assets\Shaders\MatCapSimple.shader" />
      <None Include="Assets\Shaders\AdditiveTint.shader" />
      <None Include="Assets\Shaders\UntilIlum.shader" />
